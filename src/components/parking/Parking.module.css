@@ -1,0 +1,11 @@
+.main{
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/src/img/parking.jpg");
+    background-repeat: repeat;
+    z-index: 3;
+    position: absolute;
+}

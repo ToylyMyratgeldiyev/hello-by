@@ -1,0 +1,58 @@
+.main{
+    position: relative;
+    background: linear-gradient(to right,#96c75d, #80aa4f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.road{
+    width: 300px;
+    height: calc(100vh + 478px);
+    background-image: url("/src/img/road.png");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+}
+
+.car{
+    position: fixed;
+    top: 20px;
+}
+
+.car img{
+    width: 100px;
+}
+
+
+@media (max-width: 1160px) {
+    .road{
+        height: 100vw;
+        background-image: url("/src/img/road.png");
+        background-repeat: repeat-y;
+        background-position: center;
+        width: 200px;
+    }
+}
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 768px) {
+    .road{
+        height: 100vw;
+        background-image: url("/src/img/road.png");
+        background-repeat: repeat-y;
+        background-position: center;
+        width: 150px;
+    }
+}
+@media (max-width: 480px) {
+    .road{
+        height: 100vw;
+        background-image: url("/src/img/road.png");
+        background-repeat: repeat-y;
+        background-position: center;
+        width: 100px;
+    }
+}

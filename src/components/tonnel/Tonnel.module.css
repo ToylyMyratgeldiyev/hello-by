@@ -1,0 +1,18 @@
+.tonnel_start{
+    position: absolute;
+    width: 100%;
+    height: 478px;
+    background-image: url("/src/img/tonel.png");
+    background-position: bottom ;
+    /*background-size: 100%;*/
+    background-repeat: no-repeat;
+    bottom: 0;
+
+}
+
+@media (max-width: 767px) {
+    .tonnel_start{
+        height: 140px;
+        background-size: 100%;
+    }
+}

@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import GreenBlock from "./components/green-block/GreenBlock";
+import Parking from "./components/parking/Parking";
+import RedRoad from "./components/redroat/RedRoat";
+import BlueBlock from "./components/blue-block/BlueBlock";
+import OrangeBlock from "./components/orange_block/OrangeBlock";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className="road">
+            <GreenBlock/>
+            <Parking />
+            <RedRoad />
+            <BlueBlock />
+            <OrangeBlock />
+            <Footer />
+        </div>
     </div>
   );
 }
